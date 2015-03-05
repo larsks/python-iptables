@@ -63,7 +63,7 @@ class Chain(object):
 
     def __str__(self):
         return '<Chain %s:%s>' % (
-            self.table.table,
+            self.table.name,
             self.name)
 
     def __repr__(self):
